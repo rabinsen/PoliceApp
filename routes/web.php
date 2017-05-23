@@ -18,3 +18,11 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::group(['middleware' => ['auth']], function() {
+    Route::get('criminals',['as'=>'criminals.index','uses'=>'CriminalController@index']);
+    Route::get('criminals/create',['as'=>'criminals.create','uses'=>'CriminalController@create']);
+    Route::post('criminals/create',['as'=>'criminals.store','uses'=>'CriminalController@store']);
+
+    Route::get('crimeCategory',['as'=>'crimeCategory.index','uses'=>'CriminalController@index']);
+});

@@ -1,0 +1,49 @@
+.sidebar .nepal {
+    padding: 13px 15px 12px 15px;
+    white-space: nowrap;
+    position: relative;
+    border-bottom: 1px solid #e9e9e9;
+    background: url("../images/logo.png") no-repeat no-repeat;
+    height: 135px; }
+.sidebar .nepal .image {
+    margin-right: 12px;
+    display: inline-block; }
+.sidebar .nepal .image img {
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+    vertical-align: bottom !important; }
+.sidebar .nepal .info-container {
+    cursor: default;
+    display: block;
+    position: relative;
+    top: 25px; }
+.sidebar .nepal .info-container .name {
+    white-space: nowrap;
+    -ms-text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-size: 14px;
+    max-width: 200px;
+    color: #fff; }
+.sidebar .nepal .info-container .email {
+    white-space: nowrap;
+    -ms-text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-size: 12px;
+    max-width: 200px;
+    color: #fff; }
+.sidebar .nepal .info-container .user-helper-dropdown {
+    position: absolute;
+    right: -3px;
+    bottom: -12px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    -ms-box-shadow: none;
+    box-shadow: none;
+    cursor: pointer;
+    color: #fff; }
